@@ -5,7 +5,7 @@ parapex quick start manual
 Introduction
 ------------
 
-Parapex is a package in R for performing dynamic sensitivity and model performance analysis for the APEX model.The package was primarily developed for USDA-ARS Grazinglands Research Laboratory to assist in parametrization of the APEX model. For more information on the structure of parapex and citation, please refer to: [Talebizadeh et al. (2018)](https://onlinelibrary.wiley.com/doi/full/10.1111/1752-1688.12686)
+Parapex is a package in R for performing dynamic sensitivity and model performance analysis for the APEX model.The package was primarily developed for USDA-ARS Grazinglands Research Laboratory to assist in parametrization of the APEX model. For more information on the structure of parapex and citation, please refer to: [Talebizadeh et al. (2018)](https://onlinelibrary.wiley.com/doi/10.1111/1752-1688.12758)
 
 Example folder
 --------------

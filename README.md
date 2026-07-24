@@ -1,14 +1,26 @@
-parapex quick start manual
+Important Notice
 ================
 
+<ul>
+  <li><strong><em>This repository has been archived and is no longer maintained.</em></strong></li>
+  <li><strong><em>The code is provided for historical reference and may contain unpatched or unknown vulnerabilities.</em></strong></li>
+  <li><strong><em>It should not be used in production systems.</em></strong></li>
+</ul>
 
-Introduction
-------------
+<br>
+<br>
+<br>
+<br>
+<br>
+
+## parapex quick start manual
+
+
+### Introduction
 
 Parapex is a package in R for performing dynamic sensitivity and model performance analysis for the APEX model.The package was primarily developed for USDA-ARS Grazinglands Research Laboratory to assist in parametrization of the APEX model. For more information on the structure of parapex and citation, please refer to: [Talebizadeh et al. (2018)](https://onlinelibrary.wiley.com/doi/full/10.1111/1752-1688.12686)
 
-Example folder
---------------
+### Example folder
 
 An example folder containing an APEX project and other inputs is available for users to test the package. The rest of this manual provides details of implementing an SA project using the accompanying example folder which can be created through a call to:
 
@@ -17,8 +29,7 @@ An example folder containing an APEX project and other inputs is available for u
   parapex::getExampleFolder()
 ```
 
-Steps for performing SA
------------------------
+### Steps for performing SA
 
 After loading parapex and generating a copy of the example folder, the following four steps, described in the next sections should be followed for performing SA.
 
@@ -71,8 +82,7 @@ After loading parapex and generating a copy of the example folder, the following
      SA <- parapex::SA4APEX(GSA, perfMat)
 ```
 
-APENDIX
--------
+### APENDIX
 
 This section provides 4 main tables containing the name of different parameters and their description.
 
